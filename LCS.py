@@ -1,5 +1,9 @@
 import numpy
-
+"""
+ Finds the longest substring from two strings
+    :param line: two strings
+    :return: formulated value of the longest string
+"""
 def longestSubstringFinder(file_string1, file_string2):
 	answer = ""
 
