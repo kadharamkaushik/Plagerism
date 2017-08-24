@@ -107,3 +107,17 @@ file1.txt 39.25     X         13.95
 file3.txt 11.94     13.95     X                  
 file4.txt                               X        
 ---------------------------------------------------------------------------------
+Executed on : 2017-08-24 11:59:05
+*********Bag of words********
+         file.txt  file1.txt file3.txt file4.txt
+file.txt  X         69.03     0.0       0        
+file1.txt 69.03     X         0.0       0        
+file3.txt 0.0       0.0       X         0        
+file4.txt 0         0         0         X        
+*********Longest Sequence Substring********
+         file.txt  file1.txt file3.txt file4.txt
+file.txt  X         39.25     11.94              
+file1.txt 39.25     X         13.95              
+file3.txt 11.94     13.95     X                  
+file4.txt                               X        
+---------------------------------------------------------------------------------

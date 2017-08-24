@@ -4,6 +4,16 @@ import LCS
 import sys
 import time
 import datetime
+"""
+ replaces the string with empty character if any symbol is occured except '_'
+    :param line: string
+    :return: replaced string
+"""
+def _string_replace(string):
+	for sp in "!@#$%^&*()[]{};:,./<>?\|`~-=+":
+		if sp in string :
+			string=string.replace(sp,'')
+	return string
 
 """
  Counts the frquency of each words in a given string
@@ -12,7 +22,7 @@ import datetime
 """
 def words_count(string):
 	frequency_words={}
-	string = string.replace("!@#$%^&*()[]{};:,./<>?\|`~-=+", "")
+	string=_string_replace(string)
 	li=string.split()
 	for word in li:
 		if word in frequency_words:
